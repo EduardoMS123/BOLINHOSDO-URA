@@ -1,0 +1,16 @@
+:root {
+--azul-principal:#3028F7;
+--roxo:#B828F7;
+--roxo-escuro:#6D22F0;
+--azul-botao:#225BF0;
+--rosa:#F022E8;
+--rosa-claro:#FFB0F0; 
+--roxo-principal:#9B65F5;
+--branco:#FFFFFF;
+
+}
+
+body{
+    background-color:var(--roxo-principal);
+    color:var(--branco);
+}
