@@ -14,3 +14,32 @@ body{
     background-color:var(--roxo-principal);
     color:var(--branco);
 }
+
+.principal{
+    background-image: url("IMG/Bolinho.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+}
+.container{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container__botao{
+    background-color: var(--rosa);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+}
+
+
+
+
+
+
+
+
