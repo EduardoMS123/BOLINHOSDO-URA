@@ -7,12 +7,15 @@
 --rosa-claro:#FFB0F0; 
 --roxo-principal:#9B65F5;
 --branco:#FFFFFF;
+--preto:#000000; 
+--fonte-principal: "Inter", sans-serif;
 
 }
 
 body{
     background-color:var(--roxo-principal);
     color:var(--branco);
+    font-family: var(--fonte-principal);
 }
 
 .principal{
@@ -34,10 +37,29 @@ body{
     padding: 1em;
     color: var(--branco);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
+.botao__secundario{
+    border: 2px;
+    background-color: var(--azul-botao);
+    color:var(--preto);
+}
 
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
 
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__div{
+    margin: 0 1em;
+
+}
 
 
 
