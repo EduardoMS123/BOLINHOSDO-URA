@@ -20,6 +20,7 @@ body{
 
 .principal{
     background-image: url("IMG/Bolinho.png");
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -54,6 +55,7 @@ body{
 
 .container__imagem{
     margin: 1em 0 2em 0;
+
 }
 
 .container__div{
