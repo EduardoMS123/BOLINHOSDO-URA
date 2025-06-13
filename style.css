@@ -20,7 +20,6 @@ body{
 .principal{
     background-image: url("IMG/Bolinho.png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: right;
     text-align: center;
 
@@ -54,17 +53,14 @@ body{
 
 .container__imagem{
     margin: 1em 0 2em 0;
-
 }
 
 .container__div{
     margin: 0 5em;
-
 }
 
 .secundario__imagem{
   width: 96%;
-
 }
 
 .secundario{
@@ -72,17 +68,11 @@ body{
     margin: 0 5em;
     grid-template-columns: 50% 50%;
 }
+
 .descricao__titulo{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 0.2em;
-}
-
-
-.descricao__titulo{
-    font-weight: 700;
-    font-size: 40px;
-    margin: 0 1em;
 }
 
 .container__descricao{
@@ -118,6 +108,16 @@ body{
     margin-left: 3em;
 }
 
+.secundario__botao{
+    background-color:#B828F7;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+}
+
 .pontosD{
     width: 70%;
     margin-left: 10em;
@@ -128,7 +128,6 @@ body{
     list-style-type: none;
     margin: 5em 0;
 }
-
 
 .dispositivos{
     margin-top: 10em;
@@ -144,16 +143,6 @@ margin: 4em 0;
 
 .a2{
 margin: 2em 7em;
-}
-
-.secundario__botao{
-    background-color:#B828F7;
-    border-radius: 20px;
-    padding: 1em;
-    color: var(--branco);
-    display: block;
-    text-decoration-line: none;
-    text-align: center;
 }
 
 .rodape{
@@ -175,23 +164,25 @@ margin: 2em 7em;
     margin: 1em 0;
     color: var(--branco);
 }
-.container__botao1:hover{
-    background-color: var(--vermelho);
-}
-.container__botao2:hover{
-    background-color: var(--vermelho);
-}
+
 .container__botao:hover{
-    background-color: var(--vermelho);
+    background-color: #ee4ad0;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
+
+.botao__secundario:hover{
+    background-color: #4072f0;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .secundario__botao:hover{
-    background-color: var(--vermelho);
+    background-color: #c140f8;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .lista__link a:hover{
     color: yellow;
     font-size: 16px;
 }
-
-
-
-
